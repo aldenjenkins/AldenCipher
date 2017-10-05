@@ -1,4 +1,4 @@
-# Alden's Custom Cipher Implementation
+# Alden's Custom Cipher Implementation (<=2.7.13)
 
 ### Testing practical internet-communication cipher creation and decryption
 
@@ -39,3 +39,9 @@ for i in {1..20}; do python SocketClient.py SomePlainText; done
 ```
 
 And watch the randomized key change the encrypted message in the 'Server' output!
+
+## Todo
+
+ * Add more Ciphers than just the Caesar Cipher to the AldensEncryptions object
+ * Customizable Decryption Key as a parameter in running SocketClient.py
+ * Transfer key to server without any interceptor being able to use it to decrypt the encrypted message
